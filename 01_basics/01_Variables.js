@@ -15,12 +15,15 @@ because of issue in block scope and functional scope
 */
 
 // console.table([accountId, accountEmail, accountPassword, accountCity]);
-var a;
-const myfun = () => {
-  a = 10;
-  console.log(a);
-};
 
-myfun();
 
-console.log(a);
+
+// var a;
+// const myfun = () => {
+//   a = 10;
+//   console.log(a);
+// };
+
+// myfun();
+
+// console.log(a);

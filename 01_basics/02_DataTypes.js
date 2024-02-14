@@ -2,12 +2,13 @@
 
 // alert(3+3) // we are using nodejs , not browser
 
-console.log(3 + 3); // code readability should be high , not to write code this why it is bad
+console.log(3 + 3); // code readability should be high
 
 let name = "ram ";
 let age = 18;
 let isLoggedIn = false;
 let state;
+let sim = Symbol("abc");
 
 // number => 2 to power 53
 // bigint
@@ -21,3 +22,4 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+console.log(typeof sim); // symbol
