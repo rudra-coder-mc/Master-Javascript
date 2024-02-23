@@ -16,14 +16,24 @@ because of issue in block scope and functional scope
 
 // console.table([accountId, accountEmail, accountPassword, accountCity]);
 
+// var a = 1;
+// function varFn() {
+//   var a = 2;
+// }
 
+// if (true) {
+//   var a = 3;
+// }
 
-// var a;
-// const myfun = () => {
-//   a = 10;
-//   console.log(a);
-// };
+// console.log(a);
 
-// myfun();
+// let a = 1;
+// function letFn() {
+//   var a = 2;
+// }
+
+// if (true) {
+//   let a = 3;
+// }
 
 // console.log(a);
